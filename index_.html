@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neto de Oliveira</title>
+    <meta
+      name="description"
+      content="Professional photographer and director specializing in portrait, landscape, and architectural photography. Capturing moments that tell stories through light, shadow, and emotion."
+    />
+    <meta name="author" content="Alex Morgan" />
+    <meta
+      name="keywords"
+      content="photographer, director, portrait photography, landscape photography, architectural photography, professional photography"
+    />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Neto de Oliveira" />
+    <meta
+      property="og:description"
+      content="Professional photographer and director specializing in portrait, landscape, and architectural photography. Capturing moments that tell stories through light, shadow, and emotion."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header-content">
+          <!-- Logo -->
+          <div class="logo">
+            <span class="accent">N</span>eto de
+            <span class="accent">O</span>liveira
+          </div>
+
+          <!-- Navigation -->
+          <nav class="nav" id="nav">
+            <a href="#home" class="nav-link active" data-section="home">Home</a>
+            <a href="#portfolio" class="nav-link" data-section="portfolio"
+              >Portfolio</a
+            >
+            <a href="#about" class="nav-link" data-section="about">About</a>
+            <a href="#contact" class="nav-link" data-section="contact"
+              >Contact</a
+            >
+          </nav>
+
+          <!-- Mobile Menu Button -->
+          <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ======================== HERO SECTION ======================== -->
+    <section class="hero" id="home">
+      <div class="hero-split-container">
+        <div class="hero-logo-container">
+          <img
+            src="./assets/img/logo_cropped.png"
+            alt="Logo - Neto de Oliveira"
+            class="hero-logo"
+          />
+
+        </div>
+        <div class="hero-image-container"></div>
+        <div class="hero-right-bar"></div>
+      </div>
+      <div class="scroll-indicator" onclick="scrollToSection('portfolio')">
+        Scroll to explore ↓
+      </div>
+
+
+
+       <div class="cut-shape"></div>
+    </section>
+
+    <!-- ======================== PORTFOLIO SECTION ======================== -->
+    <section class="portfolio section-padding pb-1" id="portfolio">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="text-center">
+          <h2 class="section-title">
+            My <span class="accent">Portfolio</span>
+          </h2>
+          <p class="section-subtitle">
+            A collection of moments captured through my lens, each telling a
+            unique story
+          </p>
+        </div>
+
+        <!-- Featured Carousel -->
+        <div class="portfolio-carousel-section">
+          <div class="owl-carousel owl-theme" id="portfolioCarousel">
+            <div class="portfolio-item">
+              <img
+                src="./assets/img/borboleta.jpg"
+                alt="Portrait Photography"
+              />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h3>Lorem ipsum</h3>
+                  <p>Portrait Photography</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img
+                src="./assets/img/escalada.jpg"
+                alt="Landscape Photography"
+              />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h3>Lorem ipsum</h3>
+                  <p>Landscape Photography</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img
+                src="./assets/img/macaco.jpg"
+                alt="Architecture Photography"
+              />
+              <div class="portfolio-overlay">
+                <div class="portfolio-info">
+                  <h3>Lorem ipsum</h3>
+                  <p>Architecture Photography</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="portfolio-item">
+                        <img src="img-placeholder-4.jpg" alt="Street Photography">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Street</h3>
+                                <p>Street Photography</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="img-placeholder-5.jpg" alt="Abstract Photography">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Abstract</h3>
+                                <p>Abstract Photography</p>
+                            </div>
+                        </div>
+                    </div> -->
+          </div>
+          <h3 class="carousel-subtitle mt-5">
+            "Meu trabalho é testemunhar a naturalidade transformando-as em
+            imagem"
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== FULL IMAGES SECTION ======================== -->
+    <div>
+      <img class="w-100" src="./assets/img/escalada-2.jpg" alt="" />
+
+      <div class="half-img-section d-flex flex-column flex-md-row align-items-center bg-black">
+        <div>
+            <img src="./assets/img/danca-1.jpg" alt="">
+        </div>
+
+        <div class="text-section">
+            <p>
+                Do cinema documental à ficção, da publicidade às produções autorais, percorri diferentes cenários pelo Brasil e pelo mundo, sempre em busca da luz, da textura e da composição ideal para cada narrativa.
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================== ABOUT SECTION ======================== -->
+    <section class="about section-padding" id="about">
+      <div class="container">
+        <div class="about-content">
+          <!-- Text Content -->
+          <div class="about-text">
+            <h2>Sobre mim</h2>
+            <p>
+              Minha trajetória como Diretor de Fotografia e fotógrafo still é guiada pela busca por imagens que contem histórias com autenticidade e profundidade.
+            </p>
+
+          </div>
+
+          <!-- Image -->
+          <div class="about-image">
+            <img
+              src="./assets/img/camera-1.jpg"
+              alt="Neto de Oliveira - Fotógrafo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="cut-shape"></div>
+    </section>
+
+    <section>
+        <img class="w-100" src="./assets/img/02.jpg" alt="">
+    </section>
+
+    <!-- ======================== STATS SECTION ======================== -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="number">200+</div>
+            <div class="label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="number">8</div>
+            <div class="label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="number">50+</div>
+            <div class="label">Happy Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="number">15</div>
+            <div class="label">Awards</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== CONTACT SECTION ======================== -->
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="text-center">
+          <h2 class="section-title">
+            Get In <span class="accent">Touch</span>
+          </h2>
+          <p class="section-subtitle">
+            Ready to capture your story? Let's create something beautiful
+            together.
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <!-- Contact Form -->
+          <div>
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>
+              Whether you're looking for portrait sessions, event coverage, or
+              creative collaborations, I'd love to hear about your project.
+              Let's create something extraordinary together.
+            </p>
+
+            <div class="contact-details">
+              <p><strong>Email:</strong> hello@alexmorgan.com</p>
+              <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+              <p><strong>Location:</strong> New York, NY</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== FOOTER ======================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Logo/Brand -->
+          <div class="footer-logo">
+            <span class="accent">A</span>LEX <span class="accent">M</span>ORGAN
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i data-lucide="instagram"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <i data-lucide="youtube"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Email">
+              <i data-lucide="mail"></i>
+            </a>
+          </div>
+
+          <!-- Back to Top -->
+          <button class="back-to-top" onclick="scrollToTop()">
+            Back to Top ↑
+          </button>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="currentYear"></span> Alex Morgan Photography. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ======================== SCRIPTS ======================== -->
+
+    <!-- jQuery (required for Owl Carousel) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      // ======================== INITIALIZATION ========================
+      document.addEventListener("DOMContentLoaded", function () {
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Set current year
+        document.getElementById("currentYear").textContent =
+          new Date().getFullYear();
+
+        // Initialize components
+        initializeHeader();
+        initializeNavigation();
+        initializeCarousel();
+        initializeContactForm();
+        initializeAnimations();
+      });
+
+      // ======================== HEADER FUNCTIONALITY ========================
+      function initializeHeader() {
+        const header = document.getElementById("header");
+
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+          } else {
+            header.classList.remove("scrolled");
+          }
+
+          updateActiveNavLink();
+        });
+      }
+
+      // ======================== NAVIGATION ========================
+      function initializeNavigation() {
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        navLinks.forEach((link) => {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href").substring(1);
+            scrollToSection(targetId);
+          });
+        });
+      }
+
+      function scrollToSection(sectionId) {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          const headerHeight = document.getElementById("header").offsetHeight;
+          const elementPosition = element.offsetTop - headerHeight;
+
+          window.scrollTo({
+            top: elementPosition,
+            behavior: "smooth",
+          });
+        }
+      }
+
+      function updateActiveNavLink() {
+        const sections = ["home", "portfolio", "about", "contact"];
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        let currentSection = "home";
+
+        sections.forEach((sectionId) => {
+          const element = document.getElementById(sectionId);
+          if (element) {
+            const rect = element.getBoundingClientRect();
+            if (rect.top <= 100 && rect.bottom >= 100) {
+              currentSection = sectionId;
+            }
+          }
+        });
+
+        navLinks.forEach((link) => {
+          const linkSection = link.getAttribute("data-section");
+          if (linkSection === currentSection) {
+            link.classList.add("active");
+          } else {
+            link.classList.remove("active");
+          }
+        });
+      }
+
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+
+      // ======================== OWL CAROUSEL ========================
+      function initializeCarousel() {
+        $("#portfolioCarousel").owlCarousel({
+          loop: true,
+          margin: 20,
+          nav: true,
+          dots: false,
+          autoplay: true,
+          autoplayTimeout: 4000,
+          autoplayHoverPause: true,
+          navText: [
+            '<i data-lucide="chevron-left"></i>',
+            '<i data-lucide="chevron-right"></i>',
+          ],
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 2,
+            },
+            1000: {
+              items: 3,
+            },
+          },
+          onInitialized: function () {
+            // Reinitialize Lucide icons for navigation buttons
+            lucide.createIcons();
+          },
+        });
+      }
+
+      // ======================== CONTACT FORM ========================
+      function initializeContactForm() {
+        const contactForm = document.getElementById("contactForm");
+
+        contactForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Get form data
+          const formData = new FormData(contactForm);
+          const name = formData.get("name");
+          const email = formData.get("email");
+          const subject = formData.get("subject");
+          const message = formData.get("message");
+
+          // Simple validation
+          if (!name || !email || !subject || !message) {
+            alert("Please fill in all fields.");
+            return;
+          }
+
+          // Simulate form submission
+          alert("Thank you for your message! I'll get back to you soon.");
+          contactForm.reset();
+
+          // In a real implementation, you would send the data to a server
+          console.log("Form submitted:", { name, email, subject, message });
+        });
+      }
+
+      // ======================== ANIMATIONS ========================
+      function initializeAnimations() {
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+          threshold: 0.2,
+          rootMargin: "0px 0px -50px 0px",
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.style.animationDelay = "0s";
+              entry.target.classList.add("fade-in-up");
+            }
+          });
+        }, observerOptions);
+
+        // Observe elements that should animate on scroll
+        const animateElements = document.querySelectorAll(
+          ".section-title, .section-subtitle, .about-text, .about-image, .stats-grid"
+        );
+        animateElements.forEach((el) => observer.observe(el));
+      }
+
+      // ======================== MOBILE MENU (Optional Enhancement) ========================
+      // Basic mobile menu functionality
+      document
+        .getElementById("mobileMenuBtn")
+        ?.addEventListener("click", function () {
+          const nav = document.getElementById("nav");
+          nav.style.display = nav.style.display === "flex" ? "none" : "flex";
+        });
+
+      // ======================== PERFORMANCE & ACCESSIBILITY ========================
+
+      // Preload critical images
+      function preloadImages() {
+        const imageUrls = [
+          "img-placeholder-1.jpg",
+          "img-placeholder-2.jpg",
+          "img-placeholder-3.jpg",
+          "img-placeholder-portrait.jpg",
+        ];
+
+        imageUrls.forEach((url) => {
+          const img = new Image();
+          img.src = url;
+        });
+      }
+
+      // Call preload function after page load
+      window.addEventListener("load", preloadImages);
+
+      // Lazy loading for images (modern browsers)
+      if ("loading" in HTMLImageElement.prototype) {
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        images.forEach((img) => {
+          img.src = img.dataset.src;
+        });
+      }
+    </script>
+  </body>
+</html>
